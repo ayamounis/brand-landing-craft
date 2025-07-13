@@ -7,44 +7,44 @@ const Services = () => {
   const services = [
     {
       icon: Droplets,
-      title: "منتجات العناية بالوجه",
-      description: "كريمات، أمصال، وأقنعة طبيعية للحصول على بشرة نضرة ومشرقة",
-      features: ["كريم الترطيب الطبيعي", "أمصال مكافحة الشيخوخة", "أقنعة التنظيف العميق", "مقشرات لطيفة"],
+      title: "Facial Care Products",
+      description: "Natural creams, serums, and masks for glowing, radiant skin",
+      features: ["Natural Moisturizing Cream", "Anti-Aging Serums", "Deep Cleansing Masks", "Gentle Exfoliators"],
       color: "natural-green"
     },
     {
       icon: Sparkles,
-      title: "منتجات العناية بالجسم",
-      description: "لوشن، مقشرات، وزيوت طبيعية للعناية الشاملة بجسمك",
-      features: ["لوشن الترطيب اليومي", "مقشرات الجسم الطبيعية", "زيوت التدليك العطرية", "كريمات مناطق حساسة"],
+      title: "Body Care Products",
+      description: "Lotions, scrubs, and natural oils for complete body care",
+      features: ["Daily Moisturizing Lotion", "Natural Body Scrubs", "Aromatic Massage Oils", "Sensitive Area Creams"],
       color: "soft-pink"
     },
     {
       icon: Leaf,
-      title: "منتجات العناية بالشعر",
-      description: "شامبو، بلسم، وزيوت طبيعية لشعر صحي ولامع",
-      features: ["شامبو خالي من الكبريتات", "بلسم طبيعي مغذي", "زيوت تقوية الشعر", "ماسكات ترطيب الشعر"],
+      title: "Hair Care Products",
+      description: "Natural shampoo, conditioner, and oils for healthy, shiny hair",
+      features: ["Sulfate-Free Shampoo", "Natural Nourishing Conditioner", "Hair Strengthening Oils", "Hair Moisturizing Masks"],
       color: "gold"
     },
     {
       icon: UserCheck,
-      title: "استشارات مجانية",
-      description: "استشارة شخصية مع خبراء العناية لتحديد نوع بشرتك وبرنامج العناية المناسب",
-      features: ["تحليل نوع البشرة", "برنامج عناية مخصص", "متابعة النتائج", "نصائح يومية"],
+      title: "Free Consultations",
+      description: "Personal consultation with skincare experts to determine your skin type and suitable care routine",
+      features: ["Skin Type Analysis", "Personalized Care Program", "Results Follow-up", "Daily Tips"],
       color: "natural-green"
     },
     {
       icon: Heart,
-      title: "علاج مشاكل البشرة",
-      description: "منتجات متخصصة لعلاج حب الشباب، التصبغات، والجفاف",
-      features: ["علاج حب الشباب", "توحيد لون البشرة", "مكافحة التجاعيد", "ترطيب البشرة الجافة"],
+      title: "Skin Problem Treatment",
+      description: "Specialized products for treating acne, pigmentation, and dryness",
+      features: ["Acne Treatment", "Skin Tone Evening", "Anti-Wrinkle Care", "Dry Skin Moisturizing"],
       color: "soft-pink"
     },
     {
       icon: Gift,
-      title: "باقات وهدايا",
-      description: "باقات مصممة خصيصاً للمناسبات الخاصة والهدايا المميزة",
-      features: ["باقة العروس", "هدايا المناسبات", "باقات شهرية", "بوكسات مفاجآت"],
+      title: "Packages & Gifts",
+      description: "Specially designed packages for special occasions and unique gifts",
+      features: ["Bridal Package", "Occasion Gifts", "Monthly Packages", "Surprise Boxes"],
       color: "gold"
     }
   ];
@@ -67,12 +67,12 @@ const Services = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold text-natural-green-dark mb-6">
-            خدماتنا ومنتجاتنا
+            Our Services & Products
           </h2>
           <div className="w-24 h-1 bg-gradient-natural mx-auto mb-8"></div>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            نقدم مجموعة شاملة من منتجات العناية الطبيعية والخدمات المتخصصة 
-            لتلبية جميع احتياجات بشرتك وشعرك بأمان وفعالية
+            We offer a comprehensive range of natural skincare products and specialized services 
+            to meet all your skin and hair care needs safely and effectively
           </p>
         </div>
 
@@ -85,7 +85,7 @@ const Services = () => {
               className="rounded-3xl shadow-elegant max-w-md mx-auto"
             />
             <div className="absolute -bottom-6 -right-6 bg-gold text-white p-4 rounded-2xl shadow-lg">
-              <span className="text-sm font-bold">منتجات طبيعية 100%</span>
+              <span className="text-sm font-bold">100% Natural Products</span>
             </div>
           </div>
         </div>
@@ -109,11 +109,11 @@ const Services = () => {
                 </div>
                 
                 <div className="space-y-2">
-                  <h4 className="font-semibold text-natural-green">يشمل:</h4>
+                  <h4 className="font-semibold text-natural-green">Includes:</h4>
                   <ul className="space-y-1">
                     {service.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="text-sm text-muted-foreground flex items-center">
-                        <div className="w-2 h-2 bg-soft-pink rounded-full ml-2 flex-shrink-0"></div>
+                        <div className="w-2 h-2 bg-soft-pink rounded-full mr-2 flex-shrink-0"></div>
                         {feature}
                       </li>
                     ))}
@@ -124,7 +124,7 @@ const Services = () => {
                   variant="outline" 
                   className="w-full border-natural-green text-natural-green hover:bg-natural-green hover:text-white transition-all duration-300"
                 >
-                  اعرف المزيد
+                  Learn More
                 </Button>
               </CardContent>
             </Card>
@@ -134,25 +134,25 @@ const Services = () => {
         {/* Call to Action */}
         <div className="text-center bg-gradient-hero p-12 rounded-3xl">
           <h3 className="text-2xl lg:text-3xl font-bold text-natural-green-dark mb-6">
-            احصلي على استشارة مجانية اليوم
+            Get Your Free Consultation Today
           </h3>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            دعي خبراءنا يساعدونك في اختيار أفضل منتجات العناية المناسبة لنوع بشرتك
+            Let our experts help you choose the best skincare products suitable for your skin type
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg" 
               className="bg-natural-green hover:bg-natural-green-dark text-primary-foreground shadow-natural"
-              onClick={() => window.open("https://wa.me/966500000000?text=مرحباً، أرغب في استشارة مجانية", "_blank")}
+              onClick={() => window.open("https://wa.me/201279349229?text=Hello, I would like a free consultation", "_blank")}
             >
-              احجزي استشارتك المجانية
+              Book Your Free Consultation
             </Button>
             <Button 
               variant="outline" 
               size="lg"
               className="border-soft-pink text-soft-pink-accent hover:bg-soft-pink hover:text-primary"
             >
-              تصفحي المنتجات
+              Browse Products
             </Button>
           </div>
         </div>

@@ -6,69 +6,69 @@ const WhyChooseUs = () => {
   const advantages = [
     {
       icon: Shield,
-      title: "مكونات طبيعية 100%",
-      description: "جميع منتجاتنا خالية من المواد الكيميائية الضارة والبارابين والكبريتات",
+      title: "100% Natural Ingredients",
+      description: "All our products are free from harmful chemicals, parabens, and sulfates",
       stat: "100%",
-      statLabel: "طبيعي"
+      statLabel: "Natural"
     },
     {
       icon: Award,
-      title: "شهادات دولية معتمدة",
-      description: "حاصلون على شهادات الجودة من أفضل المختبرات العالمية",
+      title: "Internationally Certified",
+      description: "Certified by the world's leading quality testing laboratories",
       stat: "15+",
-      statLabel: "شهادة جودة"
+      statLabel: "Quality Certificates"
     },
     {
       icon: Heart,
-      title: "مناسب للبشرة الحساسة",
-      description: "تركيبات لطيفة ومختبرة من قبل أطباء الجلدية للبشرة الحساسة",
+      title: "Sensitive Skin Friendly",
+      description: "Gentle formulas tested by dermatologists for sensitive skin",
       stat: "98%",
-      statLabel: "رضا العملاء"
+      statLabel: "Customer Satisfaction"
     },
     {
       icon: Truck,
-      title: "توصيل مجاني سريع",
-      description: "توصيل مجاني لجميع أنحاء المملكة للطلبات أكثر من 200 ريال",
+      title: "Fast Free Delivery",
+      description: "Free delivery nationwide for orders over $50",
       stat: "24",
-      statLabel: "ساعة توصيل"
+      statLabel: "Hour Delivery"
     },
     {
       icon: Users,
-      title: "خبرة أكثر من 10 سنوات",
-      description: "فريق من الخبراء المتخصصين في العناية بالبشرة والجمال الطبيعي",
+      title: "10+ Years Experience",
+      description: "Team of experts specialized in skincare and natural beauty",
       stat: "10+",
-      statLabel: "سنة خبرة"
+      statLabel: "Years Experience"
     },
     {
       icon: Star,
-      title: "ضمان 30 يوم",
-      description: "ضمان استرداد الأموال خلال 30 يوم إذا لم تكوني راضية عن النتائج",
+      title: "30 Day Guarantee",
+      description: "Money-back guarantee within 30 days if you're not satisfied with results",
       stat: "30",
-      statLabel: "يوم ضمان"
+      statLabel: "Day Guarantee"
     }
   ];
 
   const testimonials = [
     {
-      name: "فاطمة الأحمد",
-      age: "28 سنة",
-      review: "منتجات يونا غيرت بشرتي تماماً! بشرتي أصبحت أنعم وأكثر إشراقاً. أنصح بها بقوة.",
+      name: "Sarah Ahmed",
+      age: "28 years old",
+      review: "Yuna products completely transformed my skin! My skin became smoother and more radiant. I highly recommend it.",
       rating: 5,
-      city: "الرياض"
+      city: "New York"
     },
     {
-      name: "سارة محمد",
-      age: "35 سنة", 
-      review: "استخدمت منتجات كثيرة لكن يونا الوحيدة اللي عطتني نتائج حقيقية. خاصة كريم مكافحة الشيخوخة.",
+      name: "Emma Johnson",
+      age: "35 years old", 
+      review: "I've used many products but Yuna is the only one that gave me real results. Especially the anti-aging cream.",
       rating: 5,
-      city: "جدة"
+      city: "Los Angeles"
     },
     {
-      name: "نورا العتيبي",
-      age: "22 سنة",
-      review: "بشرتي حساسة جداً ومنتجات يونا اللطيفة ما سببت لي أي تحسس. النتائج رائعة!",
+      name: "Maria Garcia",
+      age: "22 years old",
+      review: "I have very sensitive skin and Yuna's gentle products didn't cause any irritation. Amazing results!",
       rating: 5,
-      city: "الدمام"
+      city: "Miami"
     }
   ];
 
@@ -77,11 +77,11 @@ const WhyChooseUs = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold text-natural-green-dark mb-6">
-            لماذا تختارين يونا؟
+            Why Choose Yuna?
           </h2>
           <div className="w-24 h-1 bg-gradient-natural mx-auto mb-8"></div>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            نحن لسنا مجرد علامة تجارية، بل شريك موثوق في رحلتك نحو جمال طبيعي وصحي
+            We're not just a brand, but a trusted partner in your journey towards natural, healthy beauty
           </p>
         </div>
 
@@ -119,32 +119,32 @@ const WhyChooseUs = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
           <div className="space-y-6">
             <h3 className="text-2xl lg:text-3xl font-bold text-natural-green-dark">
-              نتائج حقيقية، تغيير ملحوظ
+              Real Results, Visible Transformation
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              شاهدي التحول الحقيقي الذي حققته عملاؤنا باستخدام منتجات يونا الطبيعية.
-              نتائج مضمونة خلال 4-6 أسابيع من الاستخدام المنتظم.
+              See the real transformation our customers achieved using Yuna's natural products.
+              Guaranteed results within 4-6 weeks of regular use.
             </p>
             
             <div className="space-y-4">
-              <div className="flex items-center space-x-3 space-x-reverse">
+              <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-natural-green rounded-full"></div>
-                <span className="text-muted-foreground">تحسن ملحوظ في ملمس البشرة خلال أسبوعين</span>
+                <span className="text-muted-foreground">Noticeable improvement in skin texture within two weeks</span>
               </div>
-              <div className="flex items-center space-x-3 space-x-reverse">
+              <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-soft-pink rounded-full"></div>
-                <span className="text-muted-foreground">إشراق طبيعي يظهر من الأسبوع الأول</span>
+                <span className="text-muted-foreground">Natural glow appears from the first week</span>
               </div>
-              <div className="flex items-center space-x-3 space-x-reverse">
+              <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-gold rounded-full"></div>
-                <span className="text-muted-foreground">ترطيب عميق يدوم 24 ساعة</span>
+                <span className="text-muted-foreground">Deep moisturizing that lasts 24 hours</span>
               </div>
             </div>
             
             <div className="bg-gradient-hero p-6 rounded-xl">
               <div className="text-center">
                 <div className="text-3xl font-bold text-natural-green mb-2">96%</div>
-                <div className="text-sm text-muted-foreground">من عملائنا لاحظوا تحسناً ملحوظاً خلال شهر</div>
+                <div className="text-sm text-muted-foreground">of our customers noticed significant improvement within a month</div>
               </div>
             </div>
           </div>
@@ -156,10 +156,10 @@ const WhyChooseUs = () => {
               className="rounded-3xl shadow-elegant w-full"
             />
             <div className="absolute top-4 left-4 bg-natural-green text-white p-3 rounded-xl">
-              <span className="text-sm font-bold">نتائج حقيقية</span>
+              <span className="text-sm font-bold">Real Results</span>
             </div>
             <div className="absolute bottom-4 right-4 bg-gold text-white p-3 rounded-xl">
-              <span className="text-sm font-bold">خلال 30 يوم</span>
+              <span className="text-sm font-bold">Within 30 Days</span>
             </div>
           </div>
         </div>
@@ -167,7 +167,7 @@ const WhyChooseUs = () => {
         {/* Customer Testimonials */}
         <div className="space-y-12">
           <h3 className="text-2xl lg:text-3xl font-bold text-natural-green-dark text-center">
-            ماذا تقول عملاؤنا؟
+            What Our Customers Say
           </h3>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -191,7 +191,7 @@ const WhyChooseUs = () => {
                   </p>
                   
                   <div className="border-t pt-4">
-                    <span className="text-xs text-gold font-semibold">عميلة معتمدة ✓</span>
+                    <span className="text-xs text-gold font-semibold">Verified Customer ✓</span>
                   </div>
                 </CardContent>
               </Card>
@@ -203,19 +203,19 @@ const WhyChooseUs = () => {
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div className="space-y-2">
             <div className="text-3xl font-bold text-natural-green">5000+</div>
-            <div className="text-sm text-muted-foreground">عميلة راضية</div>
+            <div className="text-sm text-muted-foreground">Happy Customers</div>
           </div>
           <div className="space-y-2">
             <div className="text-3xl font-bold text-soft-pink-accent">98%</div>
-            <div className="text-sm text-muted-foreground">معدل الرضا</div>
+            <div className="text-sm text-muted-foreground">Satisfaction Rate</div>
           </div>
           <div className="space-y-2">
             <div className="text-3xl font-bold text-gold">24/7</div>
-            <div className="text-sm text-muted-foreground">دعم العملاء</div>
+            <div className="text-sm text-muted-foreground">Customer Support</div>
           </div>
           <div className="space-y-2">
             <div className="text-3xl font-bold text-natural-green">30</div>
-            <div className="text-sm text-muted-foreground">يوم ضمان</div>
+            <div className="text-sm text-muted-foreground">Day Guarantee</div>
           </div>
         </div>
       </div>

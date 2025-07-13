@@ -6,11 +6,11 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigation = [
-    { name: "الرئيسية", href: "#hero" },
-    { name: "من نحن", href: "#about" },
-    { name: "منتجاتنا", href: "#services" },
-    { name: "لماذا يونا", href: "#why-choose-us" },
-    { name: "تواصلي معنا", href: "#contact" }
+    { name: "Home", href: "#hero" },
+    { name: "About Us", href: "#about" },
+    { name: "Products", href: "#services" },
+    { name: "Why Yuna", href: "#why-choose-us" },
+    { name: "Contact", href: "#contact" }
   ];
 
   const scrollToSection = (href: string) => {
@@ -26,18 +26,18 @@ const Navbar = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2 space-x-reverse">
+          <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-gradient-natural rounded-xl flex items-center justify-center">
-              <span className="text-white font-bold text-lg">ي</span>
+              <span className="text-white font-bold text-lg">Y</span>
             </div>
-            <div className="text-right">
-              <h1 className="text-xl font-bold text-natural-green-dark">يونا</h1>
-              <p className="text-xs text-muted-foreground">للعناية بالبشرة</p>
+            <div>
+              <h1 className="text-xl font-bold text-natural-green-dark">Yuna</h1>
+              <p className="text-xs text-muted-foreground">Skincare</p>
             </div>
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8 space-x-reverse">
+          <div className="hidden md:flex items-center space-x-8">
             {navigation.map((item) => (
               <button
                 key={item.name}
@@ -50,14 +50,14 @@ const Navbar = () => {
           </div>
 
           {/* Action Buttons */}
-          <div className="hidden md:flex items-center space-x-4 space-x-reverse">
+          <div className="hidden md:flex items-center space-x-4">
             <Button
               variant="ghost"
               size="sm"
               className="text-muted-foreground hover:text-natural-green"
             >
-              <User className="h-4 w-4 ml-2" />
-              حسابي
+              <User className="h-4 w-4 mr-2" />
+              Account
             </Button>
             
             <Button
@@ -65,17 +65,17 @@ const Navbar = () => {
               size="sm"
               className="text-muted-foreground hover:text-natural-green"
             >
-              <ShoppingBag className="h-4 w-4 ml-2" />
-              السلة
+              <ShoppingBag className="h-4 w-4 mr-2" />
+              Cart
             </Button>
 
             <Button
               size="sm"
               className="bg-natural-green hover:bg-natural-green-dark text-primary-foreground"
-              onClick={() => window.open("https://wa.me/966500000000?text=مرحباً، أرغب في استشارة مجانية", "_blank")}
+              onClick={() => window.open("https://wa.me/201279349229?text=Hello, I would like a free consultation", "_blank")}
             >
-              <MessageCircle className="h-4 w-4 ml-2" />
-              استشارة
+              <MessageCircle className="h-4 w-4 mr-2" />
+              Consultation
             </Button>
           </div>
 
@@ -100,7 +100,7 @@ const Navbar = () => {
                 <button
                   key={item.name}
                   onClick={() => scrollToSection(item.href)}
-                  className="block w-full text-right px-3 py-2 text-base font-medium text-muted-foreground hover:text-natural-green hover:bg-muted rounded-md transition-colors"
+                  className="block w-full text-left px-3 py-2 text-base font-medium text-muted-foreground hover:text-natural-green hover:bg-muted rounded-md transition-colors"
                 >
                   {item.name}
                 </button>
@@ -111,24 +111,24 @@ const Navbar = () => {
                   variant="outline"
                   className="w-full border-natural-green text-natural-green"
                 >
-                  <User className="h-4 w-4 ml-2" />
-                  حسابي
+                  <User className="h-4 w-4 mr-2" />
+                  Account
                 </Button>
                 
                 <Button
                   variant="outline"
                   className="w-full border-natural-green text-natural-green"
                 >
-                  <ShoppingBag className="h-4 w-4 ml-2" />
-                  السلة
+                  <ShoppingBag className="h-4 w-4 mr-2" />
+                  Cart
                 </Button>
 
                 <Button
                   className="w-full bg-natural-green hover:bg-natural-green-dark text-primary-foreground"
-                  onClick={() => window.open("https://wa.me/966500000000?text=مرحباً، أرغب في استشارة مجانية", "_blank")}
+                  onClick={() => window.open("https://wa.me/201279349229?text=Hello, I would like a free consultation", "_blank")}
                 >
-                  <MessageCircle className="h-4 w-4 ml-2" />
-                  استشارة مجانية
+                  <MessageCircle className="h-4 w-4 mr-2" />
+                  Free Consultation
                 </Button>
               </div>
             </div>

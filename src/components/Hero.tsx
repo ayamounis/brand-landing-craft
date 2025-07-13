@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-skincare.jpg";
 
 const Hero = () => {
   const handleWhatsAppConsultation = () => {
-    window.open("https://wa.me/966500000000?text=مرحباً، أرغب في استشارة مجانية للعناية بالبشرة", "_blank");
+    window.open("https://wa.me/201279349229?text=Hello, I would like a free skincare consultation", "_blank");
   };
 
   return (
@@ -19,32 +19,32 @@ const Hero = () => {
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
-          <div className="text-center lg:text-right space-y-6">
-            <div className="flex items-center justify-center lg:justify-end gap-2 mb-4">
+          <div className="text-center lg:text-left space-y-6">
+            <div className="flex items-center justify-center lg:justify-start gap-2 mb-4">
               <Sparkles className="h-6 w-6 text-gold animate-pulse" />
               <span className="text-sm font-medium text-natural-green bg-natural-green-light px-4 py-2 rounded-full">
-                100% طبيعي و آمن
+                100% Natural & Safe
               </span>
             </div>
             
             <h1 className="text-4xl lg:text-6xl font-bold text-natural-green-dark leading-tight">
-              بشرة صحية ومشرقة
-              <span className="block text-soft-pink-accent">طبيعياً</span>
+              Healthy & Radiant
+              <span className="block text-soft-pink-accent">Skin Naturally</span>
             </h1>
             
             <p className="text-lg lg:text-xl text-muted-foreground max-w-lg mx-auto lg:mx-0">
-              اكتشفي جمال بشرتك الطبيعي مع منتجات يونا للعناية بالبشرة. 
-              مكونات طبيعية 100% ونتائج مضمونة لبشرة مثالية.
+              Discover your skin's natural beauty with Yuna Skincare products. 
+              100% natural ingredients and guaranteed results for perfect skin.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-end">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button 
                 size="lg" 
                 className="bg-natural-green hover:bg-natural-green-dark text-primary-foreground shadow-natural transition-all duration-300 transform hover:scale-105"
                 onClick={handleWhatsAppConsultation}
               >
-                <MessageCircle className="ml-2 h-5 w-5" />
-                استشارة مجانية
+                <MessageCircle className="mr-2 h-5 w-5" />
+                Free Consultation
               </Button>
               
               <Button 
@@ -52,22 +52,22 @@ const Hero = () => {
                 size="lg"
                 className="border-soft-pink text-soft-pink-accent hover:bg-soft-pink hover:text-primary transition-all duration-300"
               >
-                تسوقي الآن
+                Shop Now
               </Button>
             </div>
             
-            <div className="flex items-center justify-center lg:justify-end gap-8 mt-8 text-sm text-muted-foreground">
+            <div className="flex items-center justify-center lg:justify-start gap-8 mt-8 text-sm text-muted-foreground">
               <div className="text-center">
                 <div className="font-bold text-2xl text-natural-green">10+</div>
-                <div>سنوات خبرة</div>
+                <div>Years Experience</div>
               </div>
               <div className="text-center">
                 <div className="font-bold text-2xl text-natural-green">5000+</div>
-                <div>عميلة راضية</div>
+                <div>Happy Customers</div>
               </div>
               <div className="text-center">
                 <div className="font-bold text-2xl text-natural-green">30</div>
-                <div>يوم ضمان</div>
+                <div>Day Guarantee</div>
               </div>
             </div>
           </div>
@@ -84,14 +84,14 @@ const Hero = () => {
             </div>
             
             {/* Floating Elements */}
-            <div className="absolute -top-4 -right-4 bg-gold text-white p-4 rounded-2xl shadow-lg animate-bounce">
-              <span className="text-sm font-bold">توصيل مجاني</span>
-              <div className="text-xs">للطلبات +200 ريال</div>
+            <div className="absolute -top-4 -left-4 bg-gold text-white p-4 rounded-2xl shadow-lg animate-bounce">
+              <span className="text-sm font-bold">Free Delivery</span>
+              <div className="text-xs">Orders $50+</div>
             </div>
             
-            <div className="absolute -bottom-4 -left-4 bg-soft-pink text-primary p-4 rounded-2xl shadow-lg animate-pulse">
-              <span className="text-sm font-bold">ضمان الجودة</span>
-              <div className="text-xs">مكونات طبيعية معتمدة</div>
+            <div className="absolute -bottom-4 -right-4 bg-soft-pink text-primary p-4 rounded-2xl shadow-lg animate-pulse">
+              <span className="text-sm font-bold">Quality Guaranteed</span>
+              <div className="text-xs">Certified Natural Ingredients</div>
             </div>
           </div>
         </div>

@@ -5,23 +5,23 @@ const About = () => {
   const values = [
     {
       icon: Leaf,
-      title: "طبيعي 100%",
-      description: "جميع منتجاتنا مصنوعة من مكونات طبيعية وعضوية معتمدة بدون مواد كيميائية ضارة"
+      title: "100% Natural",
+      description: "All our products are made from certified natural and organic ingredients without harmful chemicals"
     },
     {
       icon: Award,
-      title: "جودة معتمدة",
-      description: "نحرص على أعلى معايير الجودة مع شهادات اعتماد دولية واختبارات صارمة"
+      title: "Certified Quality",
+      description: "We maintain the highest quality standards with international certifications and rigorous testing"
     },
     {
       icon: Heart,
-      title: "مناسب للبشرة العربية",
-      description: "تركيبات مبتكرة مصممة خصيصاً لتناسب طبيعة البشرة العربية ومناخنا"
+      title: "Suitable for All Skin Types",
+      description: "Innovative formulations designed specifically for different skin types and concerns"
     },
     {
       icon: Users,
-      title: "خبرة متخصصة",
-      description: "فريق من خبراء العناية بالبشرة لتقديم استشارات مجانية وبرامج عناية مخصصة"
+      title: "Expert Knowledge",
+      description: "Team of skincare specialists providing free consultations and personalized care programs"
     }
   ];
 
@@ -30,12 +30,12 @@ const About = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold text-natural-green-dark mb-6">
-            من نحن
+            About Us
           </h2>
           <div className="w-24 h-1 bg-gradient-natural mx-auto mb-8"></div>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            يونا للعناية بالبشرة هي علامة تجارية رائدة في مجال منتجات العناية الطبيعية بالبشرة.
-            منذ أكثر من 10 سنوات، نحن ملتزمون بتقديم أفضل المنتجات الطبيعية والآمنة لتحقيق جمال صحي ومشرق.
+            Yuna Skincare is a leading brand in natural skincare products.
+            For over 10 years, we've been committed to providing the best natural and safe products to achieve healthy, radiant beauty.
           </p>
         </div>
 
@@ -43,25 +43,25 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 mb-16 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl lg:text-3xl font-bold text-natural-green-dark">
-              قصتنا
+              Our Story
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              بدأت رحلتنا من رؤية بسيطة: تقديم منتجات عناية طبيعية وآمنة تناسب البشرة العربية.
-              اليوم، نفخر بأننا نخدم آلاف العملاء في جميع أنحاء المملكة العربية السعودية.
+              Our journey began with a simple vision: to provide natural and safe skincare products for everyone.
+              Today, we're proud to serve thousands of customers worldwide.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              نؤمن بأن الجمال الحقيقي يأتي من الطبيعة، لذلك نختار بعناية أفضل المكونات الطبيعية
-              من مصادر موثوقة لضمان حصولك على أفضل النتائج بأمان تام.
+              We believe that true beauty comes from nature, so we carefully select the finest natural ingredients
+              from trusted sources to ensure you get the best results safely.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mt-8">
               <div className="text-center p-4 bg-natural-green-light rounded-xl">
                 <div className="text-2xl font-bold text-natural-green">+5000</div>
-                <div className="text-sm text-muted-foreground">عميلة سعيدة</div>
+                <div className="text-sm text-muted-foreground">Happy Customers</div>
               </div>
               <div className="text-center p-4 bg-soft-pink rounded-xl">
                 <div className="text-2xl font-bold text-natural-green">+50</div>
-                <div className="text-sm text-muted-foreground">منتج طبيعي</div>
+                <div className="text-sm text-muted-foreground">Natural Products</div>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ const About = () => {
         {/* Our Values */}
         <div className="space-y-12">
           <h3 className="text-2xl lg:text-3xl font-bold text-natural-green-dark text-center">
-            قيمنا ومبادئنا
+            Our Values & Principles
           </h3>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -108,11 +108,11 @@ const About = () => {
         {/* Mission Statement */}
         <div className="mt-16 text-center bg-gradient-hero p-12 rounded-3xl">
           <h3 className="text-2xl lg:text-3xl font-bold text-natural-green-dark mb-6">
-            رسالتنا
+            Our Mission
           </h3>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            نسعى لأن نكون الخيار الأول لكل امرأة تبحث عن منتجات عناية طبيعية وآمنة.
-            نحن ملتزمون بتقديم أعلى معايير الجودة والابتكار لنحقق لك بشرة صحية ومشرقة طبيعياً.
+            We strive to be the first choice for everyone seeking natural and safe skincare products.
+            We are committed to providing the highest standards of quality and innovation to achieve healthy, radiant skin naturally.
           </p>
         </div>
       </div>
