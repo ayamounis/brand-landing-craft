@@ -9,32 +9,51 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 140 15% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 0 0% 99%;
+    --card-foreground: 140 15% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 140 15% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 142 45% 25%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 330 45% 85%;
+    --secondary-foreground: 140 15% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 142 20% 95%;
+    --muted-foreground: 140 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 330 35% 75%;
+    --accent-foreground: 140 15% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 142 20% 90%;
+    --input: 142 20% 96%;
+    --ring: 142 45% 35%;
+
+    /* Custom skincare brand colors */
+    --natural-green: 142 45% 25%;
+    --natural-green-light: 142 35% 85%;
+    --natural-green-dark: 142 55% 15%;
+    --soft-pink: 330 45% 85%;
+    --soft-pink-accent: 330 35% 75%;
+    --gold-accent: 45 85% 60%;
+    --gold-light: 45 75% 90%;
+    
+    /* Gradients */
+    --gradient-natural: linear-gradient(135deg, hsl(var(--natural-green)), hsl(var(--soft-pink)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--natural-green-light)), hsl(var(--soft-pink)));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--gold-light)), hsl(var(--gold-accent)));
+    
+    /* Shadows */
+    --shadow-natural: 0 10px 30px -10px hsl(var(--natural-green) / 0.2);
+    --shadow-pink: 0 10px 30px -10px hsl(var(--soft-pink) / 0.3);
+    --shadow-elegant: 0 20px 60px -10px hsl(var(--natural-green) / 0.15);
 
     --radius: 0.5rem;
 
